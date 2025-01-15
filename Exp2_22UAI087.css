@@ -1,0 +1,19 @@
+body {
+   
+    background-color: skyblue;
+  }
+
+div {
+    text-align: center;
+}
+
+  h1 {
+    color: rgb(64, 0, 224);
+    text-align: center;
+  }
+  
+  p {
+    font-family: verdana;
+    font-size: 15px;
+    text-align: center;
+  }

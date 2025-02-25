@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+
+        body{
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            height: 100vh;
+        }
+        button{
+            background-color: skyblue;
+            width: 30px;
+            height: 30px;
+        }
+
+        .container{
+            text-align: center;
+        }
+    </style>
+</head>
+<body background="imgc.jpg">
+    <div class="container">
+    <h1>Simple Calculator  </h1>
+    </div>
+    <br>
+    <div>
+    <input type="number" id="input1">
+    <input type="number" id="input2">
+    </div>
+    <br>
+    <div>
+    <button onclick="add()">+</button>
+    <button onclick="sub()">-</button>
+    <button onclick="mul()">*</button>
+    <button onclick="div()">/</button>
+    </div>
+    <script>
+        function add(){
+            var a = document.getElementById("input1").value;
+            var b = document.getElementById("input1").value;
+            document.write(parseInt(a)+parseInt(b));
+        }
+
+        function sub(){
+            var a = document.getElementById("input1").value;
+            var b = document.getElementById("input1").value;
+            document.write(a-b);
+        }
+
+        function mul(){
+            var a = document.getElementById("input1").value;
+            var b = document.getElementById("input1").value;
+            document.write(a*b);
+        }
+
+        function div(){
+            var a = document.getElementById("input1").value;
+            var b = document.getElementById("input1").value;
+            document.write(a/b);
+        }
+    </script>
+</body>
+</html>
